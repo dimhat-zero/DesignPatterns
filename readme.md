@@ -3,7 +3,7 @@
 
 ##目录
 ###创建型
-+demo1 Abstract Factory 抽象工厂
++ demo1 Abstract Factory 抽象工厂
 +demo2 Builder 生成器
 +demo3 Factory Method 工厂方法
 +demo4 Prototype

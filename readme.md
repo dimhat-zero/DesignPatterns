@@ -6,7 +6,7 @@
 + demo1 Abstract Factory 抽象工厂
 + demo2 Builder 生成器
 + demo3 Factory Method 工厂方法
-+ demo4 Prototype
++ demo4 Prototype 原型
 + demo5 Singleton 单例
 
 ###结构型
@@ -39,6 +39,8 @@ P20
 
 
 ##总结
+创建型：简单工厂 和 单例
+
 平时使用比较多的是策略，单例
 
 

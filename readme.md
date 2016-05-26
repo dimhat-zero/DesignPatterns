@@ -15,21 +15,21 @@
 + demo8 Composite 组合 （树-叶层次结构）
 + demo9 Decorator 装饰 （扩展部分功能）
 + demo10 Facade 外观者 （集大成）
-+ demo11 Flyweight 享元 (共享对象)
++ demo11 Flyweight 享元 (共用对象)
 + demo12 Proxy 代理 
 
 ###行为
-+ demo13 Chain of Responsibility 调用链
-+ demo14 Command 命令
-+ demo15 Interpreter
-+ demo16 Iterator
-+ demo17 Mediator
-+ demo18 Memnto
-+ demo19 Observer 观察者
-+ demo20 State 状态
++ demo13 Chain of Responsibility 职责链 （处理部分事情）
++ demo14 Command 命令 (回调函数替代品）
++ demo15 Interpreter 解释器
++ demo16 Iterator 迭代器
++ demo17 Mediator 中介者 (第三方)
++ demo18 Memnto 备忘录 (恢复到过去)
++ demo19 Observer 观察者 (订阅-发布)
++ demo20 State 状态 (不同状态下处理不同)
 + demo21 Strategy 策略
-+ demo22 Template Method 算法步骤
-+ demo23 Visitor
++ demo22 Template Method 模板方法
++ demo23 Visitor 访问者
 
 P20
 
@@ -39,9 +39,9 @@ P20
 
 
 ##总结
-创建型：简单工厂 和 单例
-结构型：
+创建型：简单工厂，单例
+结构型：组合，装饰，外观，享元
+行为型：观察者，状态，策略，模板方法
 
-平时使用比较多的是策略，单例
 
 

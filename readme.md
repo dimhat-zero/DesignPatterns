@@ -45,4 +45,5 @@ P20
 
 Thread代理了Runnable的run方法
 
-
+目标：java.util.Observable，提供了目标需要的关键抽象：addObserver/deleteObserver/notifyObservers()等，具体请参考javadoc。
+观察者：java.util.Observer，提供了观察者需要的主要抽象：update(Observable o, Object arg)，此处还提供了一种推模型（目标主动把数据通过arg推到观察者）/拉模型（目标需要根据o自己去拉数据，arg为null）。
